@@ -1,0 +1,15 @@
+{
+  "budget": 2,
+  "bad_len_code": "E_BAD_LEN",
+  "no_room_code": "E_NO_ROOM",
+  "no_block_code": "E_NO_BLOCK",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "used": [], "free": [[0, 10]], "merges": 0, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "alloc", "len": 4 },
+    { "id": 2, "kind": "alloc", "len": 3 },
+    { "id": 3, "kind": "release", "start": 0 },
+    { "id": 4, "kind": "alloc", "len": 2 },
+    { "id": 5, "kind": "release", "start": 4 }
+  ]
+}
